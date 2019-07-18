@@ -1,6 +1,9 @@
-cmake_minimum_required(VERSION 3.13)
-project(standard_lib)
 
-set(CMAKE_CXX_STANDARD 11)
-
-add_executable(algorithm main.cpp)
+add_subdirectory(for_each_algorithm)
+add_subdirectory(modifying_algorithm)
+add_subdirectory(mutating_algorithm)
+add_subdirectory(nonmodifying_algorithm)
+add_subdirectory(numeric_algorithm)
+add_subdirectory(removing_algorithm)
+add_subdirectory(sorted-Range_algorithm)
+add_subdirectory(sorting_algorithm)
